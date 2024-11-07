@@ -8,5 +8,8 @@
 </template>
 
 <script>
+import { useTaskStore } from "./stores/TaskStore";
+
+useTaskStore;
 export default {};
 </script>
